@@ -1,0 +1,35 @@
+nav{
+    position: fixed;
+    height:60px;
+}
+
+a.active{
+}
+
+#portfolio-image{
+    height: 500px;
+}
+
+#about-me{
+    margin-top:80px;
+    margin-bottom: 100%;
+    text-align: center;
+}
+
+#portfolio{
+    margin-bottom: 100%
+}
+
+#contact{
+    margin-bottom: 100%
+}
+
+#main-container{
+    border-style: ridge;
+    border-width: 5px;
+    background-color: white;
+}
+
+body{
+    background-color: black;
+}
