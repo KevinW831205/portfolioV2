@@ -45,6 +45,11 @@ a.active{
     padding: 30px 10px 50px 10px ;
     background-color: #DFF8EB;
     color:#48483A;
+    border-radius: 20px;
+}
+
+#resume-btn:hover{
+    opacity: 0.5;
 }
 
 #contact-info{
