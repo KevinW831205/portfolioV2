@@ -113,18 +113,18 @@ a.active{
 
 @media screen and (max-width:640px){
     #main{
-       min-width:640px;;
+       min-width:640px;
     }
     .parallax-container{
         height: 1500px;
     }
 }
 
-/* @media screen and (max-width:768px){
+@media screen and (max-width:768px){
     #main{
        min-width:768px !important;
     }
     .parallax-container{
         height: 1500px;
     }
-} */
+}
