@@ -118,6 +118,10 @@ a.active{
     .parallax-container{
         height: 1500px;
     }
+
+    .brand-logo{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:768px){
