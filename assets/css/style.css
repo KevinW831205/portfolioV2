@@ -17,8 +17,6 @@
 
 
 nav{
-    position: fixed;
-    z-index: 5;
     background-color:#74776B;
     color:#DFF8EB;
 }
@@ -98,10 +96,6 @@ a.active{
     padding-bottom: 400px;
 }
 
-#main-container{
-    /* border-style: ridge;
-    border-width: 5px; */
-}
 
 #name-header{
     font-weight: bold;
@@ -116,14 +110,21 @@ a.active{
     font-weight: bold;
 }
 
-.card-action
-/* 
-body{
-    background-color: black;
-} */
 
 @media screen and (max-width:640px){
+    #main{
+       min-width:640px !important;
+    }
     .parallax-container{
-        height: 1200px;
+        height: 1500px;
+    }
+}
+
+@media screen and (max-width:768px){
+    #main{
+       min-width:768px !important;
+    }
+    .parallax-container{
+        height: 1500px;
     }
 }
