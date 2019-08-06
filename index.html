@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -14,38 +16,215 @@
 <body>
     <nav>
         <div class="nav-wrapper container">
-            <a href="#" class="brand-logo">Kevin </a>
+            <a href="#" class="brand-logo">Kevin Cheng Fang Wang</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down table-of-contents">
-                <li><a href="#about-me" class="white-text">About Me</a></li>
-                <li><a href="#portfolio" class="white-text">Portfolio</a></li>
-                <li><a href="#contact" class="white-text">Contact</a></li>
+                <li><a href="#about-me" class="nav-link">About Me</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </div>
     </nav>
-    <div id="main-container" class="container">
-        <div class="row">
-            <div class="col s12">
-                <div id="about-me" class="section scrollspy">
-                    <h3 class="section-title">About Me </h3>
-                    <img id="portfolio-image" class="" src="assets/images/indexImg.JPG">
+    <div id="main-container">
+        <div class="parallax-container" id="about-me-parallax">
+            <div class="parallax"><img src="assets/images/markus-spiske-GDP_CXFHiuI-unsplash.jpg"></div>
+
+            <div id="about-me" class="section scrollspy">
+                <h3 class="section-title white-text" id="name-header">Kevin Cheng Fang Wang </h3>
+                <img id="portfolio-image" class="" src="assets/images/indexImg.JPG">
+            </div>
+
+            <div id="brand-statement">
+                <div class="row">
+                    <div class="col m3"></div>
+                    <p class="container col m6">
+                        Full Stack Web Developer with experience as a Research Assistant and a degree in Engineering
+                        Sciences from Pennsylvania State University. I have experience collaborating with a
+                        multidisciplinary group, designing research experiments and coding with Matlab for data
+                        analysis.
+                        Strengths in HTML, CSS and JavaScript. Enjoy designing interfaces that are intelligent and
+                        friendly.
+                        Excited to provide unique design insights and grow as a developer. My experiences and strengths
+                        combined with my multidisciplinary engineering problem solving skills positions me well for a
+                        role in development.
+                    </p>
+                    <div class="col m3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col s12" id="portfolio-background">
+            <div id="portfolio" class="section scrollspy container">
+                <h3 class="center-align cyan-text text-lighten-5 section-header">Portfolio </h3>
+                <!-- Portfolio Row 1 -->
+                <div class="row" id="projects">
+                    <div class="col s12 m4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="assets/images/awesome.PNG" class="project-image">
+                                <span class="card-title">Awesome Word Game</span>
+                            </div>
+                            <div class="card-content">
+                                <p>Awesome Word Game is a game that increases English vocabulary exposure and retention
+                                    for students studying
+                                    for the GREs.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://github.com/KevinW831205/Awesome" target="blank" class="project-link"><i
+                                        class="fab fa-github"></i> Github</a>
+                                <a href="https://swissfink.github.io/Awesome/" target="blank"
+                                    class="project-link">Deployed Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="assets/images/pantryPickup.PNG" class="project-image">
+                                <span class="card-title">Pantry Pickup</span>
+                            </div>
+                            <div class="card-content">
+                                <p>An application that makes food donations easier and helps you make a difference by
+                                    fighting food waste
+                                    and feeding the hungry.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://github.com/KevinW831205/pantrypickup" target="blank"
+                                    class="project-link"><i class="fab fa-github"></i> Github</a>
+                                <a href="https://project2-group7.herokuapp.com/" target="blank"
+                                    class="project-link">Deployed Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="assets/images/bandly.PNG" class="project-image">
+                                <span class="card-title">Bandly</span>
+                            </div>
+                            <div class="card-content">
+                                <p>Bandly is a free app that focues on the connection of Musicians. Helping Musicians to
+                                    find bands and vice versa.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://github.com/KevinW831205/bandly-forked" target="blank"
+                                    class="project-link"><i class="fab fa-github"></i> Github</a>
+                                <a href="https://upenn2019-project-3.herokuapp.com/" target="blank"
+                                    class="project-link">Deployed Website</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-
-                <div id="portfolio" class="section scrollspy">
-                    <p>Portfolio </p>
-                </div>
-
-                <div id="contact" class="section scrollspy">
-                    <p>Contact </p>
+                <!-- Portfolio Row 2 -->
+                <div class="row" id="projects">
+                    <div class="col s12 m4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="assets/images/sequelizeBurger.PNG" class="project-image">
+                                <span class="card-title">Eat-da-Burger</span>
+                            </div>
+                            <div class="card-content">
+                                <p>A restaurant application that is used to manage customers and their orders. </p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://github.com/KevinW831205/sequelizedBurger" target="blank" class="project-link"><i
+                                        class="fab fa-github"></i> Github</a>
+                                <a href="https://desolate-earth-44023.herokuapp.com/" target="blank"
+                                    class="project-link">Deployed Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="assets/images/googleBooks.PNG" class="project-image">
+                                <span class="card-title">Google Books Search</span>
+                            </div>
+                            <div class="card-content">
+                                <p>An application that searches the google books api for books and allows users to save books to a common list</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://github.com/KevinW831205/google-books-search" target="blank"
+                                    class="project-link"><i class="fab fa-github"></i> Github</a>
+                                <a href="https://vast-wave-94613.herokuapp.com/" target="blank"
+                                    class="project-link">Deployed Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="assets/images/giftastic.png" class="project-image">
+                                <span class="card-title">Giftastic</span>
+                            </div>
+                            <div class="card-content">
+                                <p>A responsive app that allows users to search for gifs using keywords. Also allows users to save gifs for future browsing.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://github.com/KevinW831205/giftastic" target="blank"
+                                    class="project-link"><i class="fab fa-github"></i> Github</a>
+                                <a href="https://kevinw831205.github.io/giftastic/" target="blank"
+                                    class="project-link">Deployed Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Portfolio Row 2 -->
                 </div>
             </div>
         </div>
 
-    </div>
+        <h3 class="center-align section-header">Skills</h3>
+        <div class="row container">
+            <div class="col m3 s6 center-align ">
+                <img class="skills-image" src="assets/images/htmlcssjs.jpg">
+            </div>
+            <div class="col m3 s6 center-align ">
+                <img class="skills-image" src="assets/images/jquery.jpg">
+            </div>
+            <div class="col m3 s6 center-align ">
+                <img class="skills-image-wide" src="assets/images/bootstrap.png">
+            </div>
+            <div class="col m3 s6 center-align ">
+                <img class="skills-image-wide" src="assets/images/materialize.jpg">
+            </div>
+        </div>
+        <div class="row container">
+            <div class="col m3 s6 center-align ">
+                <img class="skills-image" src="assets/images/node.png">
+            </div>
+            <div class="col m3 s6 center-align ">
+                <img class="skills-image" src="assets/images/mysql.png">
+            </div>
+            <div class="col m3 s6 center-align ">
+                <img class="skills-image" src="assets/images/mongodb.jpg">
+            </div>
+            <div class="col m3 s6 center-align ">
+                <img class="skills-image" src="assets/images/react.png">
+            </div>
+        </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script type="text/javascript" src="assets/js/index.js"></script>
+
+        <div class="col s12 container">
+            <div id="contact" class="section scrollspy">
+                <h3 class="center-align section-header">Contact Me</h3>
+                <div class="row">
+                    <div class="col m1 s12"></div>
+                    <div class="col m10 s12" id="contact-info">
+                        <p><i class="fab fa-github"></i> Github: <a href="https://github.com/KevinW831205"
+                                target="blank">https://github.com/KevinW831205</a></p>
+                        <p><i class="fab fa-linkedin"></i>
+                            Linkedin: <a href="https://www.linkedin.com/in/kevin-cheng-fang-wang-92b181144/"
+                                target="blank">https://www.linkedin.com/in/kevin-cheng-fang-wang-92b181144/</a></p>
+                        <p><i class="fas fa-phone"></i> Phone: 814 777 8034</p>
+                        <p><i class="far fa-envelope"></i> Email: kevinw831205@gmail.com</p>
+                    </div>
+                    <div class="col m1 s12"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script type="text/javascript" src="assets/js/index.js"></script>
 </body>
 
 </html>

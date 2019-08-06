@@ -1,35 +1,128 @@
+#palette{
+    color:#DFF8EB;
+    color:#A28F9D;
+    color:#74776B;
+    color:#5C574F;
+    color:#48483A;
+}
+
+.skills-image{
+    width: 150px;
+    height: 150px;
+}
+.skills-image-wide{
+    width: 180px;
+    height: 150px;
+}
+
+
 nav{
     position: fixed;
-    height:60px;
+    z-index: 5;
+    background-color:#74776B;
+    color:#DFF8EB;
+}
+
+.nav-link{
+    color:#DFF8EB !important;
+}
+
+.parallax-container{
+    height: 1200px;
+}
+
+#projects{
+    margin-top:30px;
 }
 
 a.active{
+}
+
+#brand-statement{
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.2em;
+    padding: 30px 10px 50px 10px ;
+    background-color: #DFF8EB;
+    color:#48483A;
+}
+
+#contact-info{
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.project-image{
+    height:300px;
 }
 
 #portfolio-image{
     height: 500px;
 }
 
+.project-link{
+    border-radius: 5px;
+    background-color: #DFF8EB;
+    color:#48483A !important;
+    padding:10px 20px 10px 20px;
+}
+.project-link:hover{
+    color: orange !important;
+}
+
 #about-me{
     margin-top:80px;
-    margin-bottom: 100%;
     text-align: center;
 }
 
-#portfolio{
-    margin-bottom: 100%
+#portfolio-background{
+    background-color: #A28F9D;
+    padding-bottom: 50px;
+}
+
+.card-title{
+    border-radius: 10px;
+    padding: 10px 20px 15px 20px!important;
+    background-color: #48483A;
+    color:#DFF8EB !important;
 }
 
 #contact{
-    margin-bottom: 100%
+    margin-top: 100px;
+    padding-bottom: 400px;
 }
 
 #main-container{
-    border-style: ridge;
-    border-width: 5px;
-    background-color: white;
+    /* border-style: ridge;
+    border-width: 5px; */
 }
 
+#name-header{
+    font-weight: bold;
+}
+
+.card-content{
+    font-size: 20px;
+    height:130px;
+}
+
+.section-header{
+    font-weight: bold;
+}
+
+.card-action
+/* 
 body{
     background-color: black;
+} */
+
+@media screen and (max-width:640px){
+    .brand-logo{
+        width:100%;
+        text-align: center
+    }
+
+    .parallax-container{
+        height: 1200px;
+    }
 }

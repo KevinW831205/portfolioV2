@@ -3,4 +3,7 @@ $(document).ready(function () {
         scrollOffset: 100
     });
 
+    $(document).ready(function () {
+        $('.parallax').parallax();
+    });
 });
