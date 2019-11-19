@@ -52,8 +52,18 @@ a.active{
 }
 
 #contact-info{
-    font-size: 30px;
+    font-size: 20px;
     line-height: 50px;
+    text-align: center;
+}
+
+.contact-info-element{
+    margin-bottom: 20px;
+}
+
+.contact-info-header{
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .project-image{
@@ -68,8 +78,9 @@ a.active{
     border-radius: 5px;
     background-color: #DFF8EB;
     color:#48483A !important;
-    padding:10px 20px 10px 20px;
+    padding: 5px 10px 5px 10px;
 }
+
 .project-link:hover{
     color: orange !important;
 }
@@ -103,7 +114,7 @@ a.active{
 
 .card-content{
     font-size: 20px;
-    height:130px;
+    height:150px;
 }
 
 .section-header{
